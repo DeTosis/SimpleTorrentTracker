@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleTorrentTracker", "AngleSharpTests\SimpleTorrentTracker.csproj", "{EA5F2158-08D9-4E3C-8FBB-32FF33843E3D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA5F2158-08D9-4E3C-8FBB-32FF33843E3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA5F2158-08D9-4E3C-8FBB-32FF33843E3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA5F2158-08D9-4E3C-8FBB-32FF33843E3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA5F2158-08D9-4E3C-8FBB-32FF33843E3D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88933926-CCD1-4DA4-A01A-F650C2E8C444}
+	EndGlobalSection
+EndGlobal
