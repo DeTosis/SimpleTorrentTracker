@@ -5,7 +5,7 @@ using AngleSharpTests.Igruha;
 using AngleSharpTests.View;
 
 class Program {
-    static Encoding? win1251 = CodePagesEncodingProvider.Instance.GetEncoding(1251);
+    static Encoding win1251 = CodePagesEncodingProvider.Instance.GetEncoding(1251) ?? Encoding.UTF8;
     static string userInput = "";
     static string GameTitile;
 
@@ -14,6 +14,7 @@ class Program {
     public static async Task Main() {
         //Time stamp
         Console.OutputEncoding = win1251;
+        Console.InputEncoding = win1251;
         DateTime timeStart = DateTime.Now;
         //=== ===
 
